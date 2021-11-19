@@ -7,6 +7,7 @@
 body {
     background-color: #000;
     color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 
@@ -51,6 +52,8 @@ body {
     padding: 12px;
     width: 95%;
     margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
 }
 
 .password-user {
@@ -69,10 +72,16 @@ body {
 }
 .buton input{
     border-radius: 15px;
-    color: rgb(0, 0, 0);
-    background: #666; 
+    color: #fff;
+    background:rgb(0, 0, 0); 
     padding: 12px;
     max-width: 200px;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+.buton input:hover{
+    background-color: #666;
+    color: rgb(0, 0, 0);
 }
 
 .password-new{
